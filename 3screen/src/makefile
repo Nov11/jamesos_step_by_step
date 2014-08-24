@@ -1,0 +1,17 @@
+SOURCES=boot.o main.o monitor.o common.o
+#nostdlib 不连接标准启动文件和标准库文件
+#nostdinc 不在标准系统目录中搜索头文件，只在-I指定的目录中搜索
+#fno-builtin 不使用内置的函数
+#no-stack-protector 不使用堆栈保护
+CFLAGS=-nostdlib -nostdinc -fno-builtin -fno-stack-protector
+LDFLAGS=-T link.ld
+ASFLAGS=-felf
+
+all: $(SOURCES) link
+
+clean:
+	-rm *.o kernel
+link:
+	ld $(LDFLAGS) -o kernel $(SOURCES)
+.s.o:
+	nasm $(ASFLAGS) $<
