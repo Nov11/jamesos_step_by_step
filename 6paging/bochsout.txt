@@ -1,0 +1,521 @@
+00000000000i[     ] Bochs x86 Emulator 2.4.6
+00000000000i[     ]   Build from CVS snapshot, on February 22, 2011
+00000000000i[     ] Compiled at Nov 11 2011, 09:31:23
+00000000000i[     ] System configuration
+00000000000i[     ]   processors: 1 (cores=1, HT threads=1)
+00000000000i[     ]   A20 line support: yes
+00000000000i[     ] CPU configuration
+00000000000i[     ]   level: 6
+00000000000i[     ]   SMP support: no
+00000000000i[     ]   APIC support: yes
+00000000000i[     ]   FPU support: yes
+00000000000i[     ]   MMX support: yes
+00000000000i[     ]   3dnow! support: no
+00000000000i[     ]   SEP support: yes
+00000000000i[     ]   SSE support: sse2
+00000000000i[     ]   XSAVE support: no
+00000000000i[     ]   AES support: no
+00000000000i[     ]   MOVBE support: no
+00000000000i[     ]   x86-64 support: yes
+00000000000i[     ]   1G paging support: no
+00000000000i[     ]   VMX support: no
+00000000000i[     ] Optimization configuration
+00000000000i[     ]   RepeatSpeedups support: yes
+00000000000i[     ]   Trace cache support: yes
+00000000000i[     ]   Fast function calls: yes
+00000000000i[     ] Devices configuration
+00000000000i[     ]   ACPI support: yes
+00000000000i[     ]   NE2000 support: yes
+00000000000i[     ]   PCI support: yes, enabled=yes
+00000000000i[     ]   SB16 support: yes
+00000000000i[     ]   USB support: yes
+00000000000i[     ]   VGA extension support: vbe 
+00000000000i[MEM0 ] allocated memory at 0xb4157008. after alignment, vector=0xb4158000
+00000000000i[MEM0 ] 32.00MB
+00000000000i[MEM0 ] mem block size = 0x00100000, blocks=32
+00000000000i[MEM0 ] rom at 0xfffe0000/131072 ('/usr/share/bochs/BIOS-bochs-latest')
+00000000000i[MEM0 ] rom at 0xc0000/40448 ('/usr/share/bochs/VGABIOS-lgpl-latest')
+00000000000i[VTIME] using 'realtime pit' synchronization method
+00000000000i[     ] lt_dlhandle is 0xa0de1b0
+00000000000i[PLGIN] loaded plugin libbx_cmos.so
+00000000000i[     ] lt_dlhandle is 0xa0de7d0
+00000000000i[PLGIN] loaded plugin libbx_dma.so
+00000000000i[     ] lt_dlhandle is 0xa0dee08
+00000000000i[PLGIN] loaded plugin libbx_pic.so
+00000000000i[     ] lt_dlhandle is 0xa0df300
+00000000000i[PLGIN] loaded plugin libbx_pit.so
+00000000000i[     ] lt_dlhandle is 0xa0df940
+00000000000i[PLGIN] loaded plugin libbx_vga.so
+00000000000i[     ] lt_dlhandle is 0xa0dfd30
+00000000000i[PLGIN] loaded plugin libbx_hdimage.so
+00000000000i[     ] lt_dlhandle is 0xa0e02c0
+00000000000i[PLGIN] loaded plugin libbx_floppy.so
+00000000000i[     ] lt_dlhandle is 0xa0e0a90
+00000000000i[PLGIN] loaded plugin libbx_soundmod.so
+00000000000i[     ] lt_dlhandle is 0xa0e1020
+00000000000i[PLGIN] loaded plugin libbx_pci.so
+00000000000i[     ] lt_dlhandle is 0xa0e1730
+00000000000i[PLGIN] loaded plugin libbx_pci2isa.so
+00000000000i[     ] lt_dlhandle is 0xa0e1d90
+00000000000i[PLGIN] loaded plugin libbx_usb_common.so
+00000000000i[     ] lt_dlhandle is 0xa0e22d0
+00000000000i[PLGIN] loaded plugin libbx_unmapped.so
+00000000000i[     ] lt_dlhandle is 0xa0e2760
+00000000000i[PLGIN] loaded plugin libbx_biosdev.so
+00000000000i[     ] lt_dlhandle is 0xa0e2d30
+00000000000i[PLGIN] loaded plugin libbx_speaker.so
+00000000000i[     ] lt_dlhandle is 0xa0e3218
+00000000000i[PLGIN] loaded plugin libbx_extfpuirq.so
+00000000000i[     ] lt_dlhandle is 0xa0e3748
+00000000000i[PLGIN] loaded plugin libbx_gameport.so
+00000000000i[     ] lt_dlhandle is 0xa0e3c28
+00000000000i[PLGIN] loaded plugin libbx_pci_ide.so
+00000000000i[     ] lt_dlhandle is 0xa0e4268
+00000000000i[PLGIN] loaded plugin libbx_acpi.so
+00000000000i[     ] lt_dlhandle is 0xa0e48a8
+00000000000i[PLGIN] loaded plugin libbx_ioapic.so
+00000000000i[     ] lt_dlhandle is 0xa0e4e68
+00000000000i[PLGIN] loaded plugin libbx_keyboard.so
+00000000000i[     ] lt_dlhandle is 0xa0e5478
+00000000000i[PLGIN] loaded plugin libbx_harddrv.so
+00000000000i[     ] lt_dlhandle is 0xa0f70e0
+00000000000i[PLGIN] loaded plugin libbx_serial.so
+00000000000i[     ] lt_dlhandle is 0xa0f7c10
+00000000000i[PLGIN] loaded plugin libbx_parallel.so
+00000000000i[CMOS ] Using local time for initial clock
+00000000000i[CMOS ] Setting initial clock to: Mon Aug 25 21:14:10 2014 (time0=1408972450)
+00000000000i[DMA  ] channel 4 used by cascade
+00000000000i[DMA  ] channel 2 used by Floppy Drive
+00000000000i[FDD  ] fd0: 'floppy.img' ro=0, h=2,t=80,spt=18
+00000000000i[PCI  ] 440FX Host bridge present at device 0, function 0
+00000000000i[PCI  ] PIIX3 PCI-to-ISA bridge present at device 1, function 0
+00000000000i[VGA  ] interval=50000
+00000000000i[MEM0 ] Register memory access handlers: 0x00000000000a0000 - 0x00000000000bffff
+00000000000i[MEM0 ] Register memory access handlers: 0x00000000e0000000 - 0x00000000e0ffffff
+00000000000i[VGA  ] VBE Bochs Display Extension Enabled
+00000000000i[PLGIN] init_dev of 'unmapped' plugin device by virtual method
+00000000000i[PLGIN] init_dev of 'biosdev' plugin device by virtual method
+00000000000i[PLGIN] init_dev of 'speaker' plugin device by virtual method
+00000000000i[SPEAK] Failed to open /dev/console: 资源暂时不可用
+00000000000i[SPEAK] Deactivating beep on console
+00000000000i[PLGIN] init_dev of 'extfpuirq' plugin device by virtual method
+00000000000i[PLGIN] init_dev of 'gameport' plugin device by virtual method
+00000000000i[PLGIN] init_dev of 'pci_ide' plugin device by virtual method
+00000000000i[PCI  ] PIIX3 PCI IDE controller present at device 1, function 1
+00000000000i[PLGIN] init_dev of 'acpi' plugin device by virtual method
+00000000000i[PCI  ] ACPI Controller present at device 1, function 3
+00000000000i[PLGIN] init_dev of 'ioapic' plugin device by virtual method
+00000000000i[IOAP ] initializing I/O APIC
+00000000000i[MEM0 ] Register memory access handlers: 0x00000000fec00000 - 0x00000000fec00fff
+00000000000i[PLGIN] init_dev of 'keyboard' plugin device by virtual method
+00000000000i[KBD  ] will paste characters every 1000 keyboard ticks
+00000000000i[PLGIN] init_dev of 'harddrv' plugin device by virtual method
+00000000000i[HD   ] Using boot sequence floppy, none, none
+00000000000i[HD   ] Floppy boot signature check is enabled
+00000000000i[PLGIN] init_dev of 'serial' plugin device by virtual method
+00000000000i[SER  ] com1 at 0x03f8 irq 4
+00000000000i[PLGIN] init_dev of 'parallel' plugin device by virtual method
+00000000000i[PAR  ] parallel port 1 at 0x0378 irq 7
+00000000000i[PLGIN] register state of 'unmapped' plugin device by virtual method
+00000000000i[PLGIN] register state of 'biosdev' plugin device by virtual method
+00000000000i[PLGIN] register state of 'speaker' plugin device by virtual method
+00000000000i[PLGIN] register state of 'extfpuirq' plugin device by virtual method
+00000000000i[PLGIN] register state of 'gameport' plugin device by virtual method
+00000000000i[PLGIN] register state of 'pci_ide' plugin device by virtual method
+00000000000i[PLGIN] register state of 'acpi' plugin device by virtual method
+00000000000i[PLGIN] register state of 'ioapic' plugin device by virtual method
+00000000000i[PLGIN] register state of 'keyboard' plugin device by virtual method
+00000000000i[PLGIN] register state of 'harddrv' plugin device by virtual method
+00000000000i[PLGIN] register state of 'serial' plugin device by virtual method
+00000000000i[PLGIN] register state of 'parallel' plugin device by virtual method
+00000000000i[SYS  ] bx_pc_system_c::Reset(HARDWARE) called
+00000000000i[CPU0 ] cpu hardware reset
+00000000000i[APIC0] allocate APIC id=0 (MMIO enabled) to 0x00000000fee00000
+00000000000i[CPU0 ] CPUID[0x00000000]: 00000003 756e6547 6c65746e 49656e69
+00000000000i[CPU0 ] CPUID[0x00000001]: 00000f23 00000800 00002000 07cbfbff
+00000000000i[CPU0 ] CPUID[0x00000002]: 00410601 00000000 00000000 00000000
+00000000000i[CPU0 ] CPUID[0x00000003]: 00000000 00000000 00000000 00000000
+00000000000i[CPU0 ] CPUID[0x00000004]: 00000000 00000000 00000000 00000000
+00000000000i[CPU0 ] CPUID[0x00000007]: 00000000 00000000 00000000 00000000
+00000000000i[CPU0 ] CPUID[0x80000000]: 80000008 00000000 00000000 00000000
+00000000000i[CPU0 ] CPUID[0x80000001]: 00000000 00000000 00000001 2a100800
+00000000000i[CPU0 ] CPUID[0x80000002]: 20202020 20202020 20202020 6e492020
+00000000000i[CPU0 ] CPUID[0x80000003]: 286c6574 50202952 69746e65 52286d75
+00000000000i[CPU0 ] CPUID[0x80000004]: 20342029 20555043 20202020 00202020
+00000000000i[CPU0 ] CPUID[0x80000006]: 00000000 42004200 02008140 00000000
+00000000000i[CPU0 ] CPUID[0x80000007]: 00000000 00000000 00000000 00000000
+00000000000i[CPU0 ] CPUID[0x80000008]: 00003028 00000000 00000000 00000000
+00000000000i[PLGIN] reset of 'unmapped' plugin device by virtual method
+00000000000i[PLGIN] reset of 'biosdev' plugin device by virtual method
+00000000000i[PLGIN] reset of 'speaker' plugin device by virtual method
+00000000000i[PLGIN] reset of 'extfpuirq' plugin device by virtual method
+00000000000i[PLGIN] reset of 'gameport' plugin device by virtual method
+00000000000i[PLGIN] reset of 'pci_ide' plugin device by virtual method
+00000000000i[PLGIN] reset of 'acpi' plugin device by virtual method
+00000000000i[PLGIN] reset of 'ioapic' plugin device by virtual method
+00000000000i[PLGIN] reset of 'keyboard' plugin device by virtual method
+00000000000i[PLGIN] reset of 'harddrv' plugin device by virtual method
+00000000000i[PLGIN] reset of 'serial' plugin device by virtual method
+00000000000i[PLGIN] reset of 'parallel' plugin device by virtual method
+00000000000i[GDBST] addr 0 len 1
+00000000000i[GDBST] addr 0 len 1
+00000000000i[GDBST] addr 0 len 1
+00000000000i[GDBST] addr 0 len 1
+00000000000i[GDBST] addr 0 len 1
+00000000000i[GDBST] addr 0 len 1
+00000000000i[GDBST] addr 0 len 8
+00000000000i[GDBST] addr 0 len 7
+00000000000i[GDBST] addr 101888 len 1
+00000000000i[GDBST] addr 101888 len 1
+00000000000i[GDBST] addr 101888 len 1
+00000000000i[GDBST] addr 101888 len 1
+00000000000i[GDBST] addr 101888 len e
+00000000000i[GDBST] addr 101888 len 1
+00000000000i[GDBST] addr 101888 len 1
+00000000000i[GDBST] addr 101888 len 1
+00000000000i[GDBST] addr 101888 len 1
+00000000000i[GDBST] addr 101888 len 1
+00000000000i[GDBST] addr 101888 len 1
+00000000000i[GDBST] addr 101888 len e
+00000000000i[GDBST] addr 101888 len 1
+00000000000i[GDBST] addr 101888 len 1
+00000000000i[GDBST] addr 101888 len 1
+00000000000i[GDBST] setting breakpoint at 101888
+00000003305i[BIOS ] $Revision: 1.257 $ $Date: 2011/01/26 09:52:02 $
+00000316446i[KBD  ] reset-disable command received
+00000439088i[VBIOS] VGABios $Id$
+00000439159i[VGA  ] VBE known Display Interface b0c0
+00000439191i[VGA  ] VBE known Display Interface b0c5
+00000439860i[VBIOS] VBE Bios $Id$
+00000757332i[BIOS ] Starting rombios32
+00000757765i[BIOS ] Shutdown flag 0
+00000758360i[BIOS ] ram_size=0x02000000
+00000758780i[BIOS ] ram_end=32MB
+00000773882i[BIOS ] Found 1 cpu(s)
+00000789737i[BIOS ] bios_table_addr: 0x000fb928 end=0x000fcc00
+00000789834i[PCI  ] 440FX PMC write to PAM register 59 (TLB Flush)
+00001117529i[PCI  ] 440FX PMC write to PAM register 59 (TLB Flush)
+00001445457i[P2I  ] PCI IRQ routing: PIRQA# set to 0x0b
+00001445476i[P2I  ] PCI IRQ routing: PIRQB# set to 0x09
+00001445495i[P2I  ] PCI IRQ routing: PIRQC# set to 0x0b
+00001445514i[P2I  ] PCI IRQ routing: PIRQD# set to 0x09
+00001445524i[P2I  ] write: ELCR2 = 0x0a
+00001446290i[BIOS ] PIIX3/PIIX4 init: elcr=00 0a
+00001453950i[BIOS ] PCI: bus=0 devfn=0x00: vendor_id=0x8086 device_id=0x1237 class=0x0600
+00001456215i[BIOS ] PCI: bus=0 devfn=0x08: vendor_id=0x8086 device_id=0x7000 class=0x0601
+00001458319i[BIOS ] PCI: bus=0 devfn=0x09: vendor_id=0x8086 device_id=0x7010 class=0x0101
+00001458551i[PIDE ] new BM-DMA address: 0xc000
+00001459166i[BIOS ] region 4: 0x0000c000
+00001461182i[BIOS ] PCI: bus=0 devfn=0x0b: vendor_id=0x8086 device_id=0x7113 class=0x0680
+00001461415i[ACPI ] new irq line = 11
+00001461427i[ACPI ] new irq line = 9
+00001461456i[ACPI ] new PM base address: 0xb000
+00001461470i[ACPI ] new SM base address: 0xb100
+00001461498i[PCI  ] setting SMRAM control register to 0x4a
+00001625589i[CPU0 ] Enter to System Management Mode
+00001625599i[CPU0 ] RSM: Resuming from System Management Mode
+00001789617i[PCI  ] setting SMRAM control register to 0x0a
+00001798370i[BIOS ] MP table addr=0x000fba00 MPC table addr=0x000fb930 size=0xd0
+00001800109i[BIOS ] SMBIOS table addr=0x000fba10
+00001803260i[BIOS ] Firmware waking vector 0x1ff00cc
+00001808199i[BIOS ] ACPI tables: RSDP addr=0x000fbb30 ACPI DATA addr=0x01ff0000 size=0x1f18
+00001808235i[PCI  ] 440FX PMC write to PAM register 59 (TLB Flush)
+00001808963i[BIOS ] bios_table_cur_addr: 0x000fbb54
+00031226111i[BIOS ] Booting from 0000:7c00
+00032843746i[BIOS ] int13_harddisk: function 41, unmapped device for ELDL=80
+00032848523i[BIOS ] int13_harddisk: function 08, unmapped device for ELDL=80
+00032853176i[BIOS ] *** int 15h function AX=00c0, BX=0000 not yet supported!
+00038458814i[GDBST] found breakpoint at 101888
+00038458814i[GDBST] stopped with ac1
+00038458814i[GDBST] Removing breakpoint at 101888
+00038458814i[GDBST] addr 53c8e len 1
+00038458814i[GDBST] addr 53c8e len 1
+00038458814i[GDBST] addr 53c8e len 1
+00038458814i[GDBST] addr 53c8e len 1
+00038458814i[GDBST] addr 53c8e len 1
+00038458814i[GDBST] addr 53c8e len 1
+00038458814i[GDBST] addr 53c8e len 8
+00038458814i[GDBST] addr 53c8e len 7
+00038458814i[GDBST] addr 101888 len 1
+00038458814i[GDBST] addr 101888 len 1
+00038458814i[GDBST] addr 101888 len 1
+00038458814i[GDBST] addr 101888 len 1
+00038458814i[GDBST] addr 101888 len e
+00038458814i[GDBST] addr 101888 len 1
+00038458814i[GDBST] addr 101889 len 1
+00038458814i[GDBST] addr 101889 len 1
+00038458814i[GDBST] addr 101889 len 1
+00038458814i[GDBST] addr 101889 len 1
+00038458814i[GDBST] addr 101889 len 1
+00038458814i[GDBST] addr 101889 len 1
+00038458814i[GDBST] addr 10188a len 5
+00038458814i[GDBST] addr 101889 len 1
+00038458814i[GDBST] addr 10188a len 5
+00038458814i[GDBST] addr 101889 len 1
+00038458814i[GDBST] addr 101889 len 1
+00038458814i[GDBST] addr 101889 len 1
+00038458814i[GDBST] addr 101889 len 1
+00038458814i[GDBST] addr 101889 len 1
+00038458814i[GDBST] addr 101889 len 1
+00038458814i[GDBST] addr 101889 len 1
+00038458814i[GDBST] addr 10188a len 1
+00038458814i[GDBST] addr 10188b len 1
+00038458814i[GDBST] addr 10188c len 1
+00038458814i[GDBST] addr 10188d len 1
+00038458814i[GDBST] addr 10188e len 1
+00038458814i[GDBST] addr 10188e len 1
+00038458814i[GDBST] addr 101888 len 1
+00038458814i[GDBST] addr 1018e9 len 1
+00038458814i[GDBST] setting breakpoint at 101888
+00038458814i[GDBST] setting breakpoint at 1018e9
+00038459675i[GDBST] found breakpoint at 1018e9
+00038459675i[GDBST] stopped with ac1
+00038459675i[GDBST] Removing breakpoint at 101888
+00038459675i[GDBST] Removing breakpoint at 1018e9
+00038459675i[GDBST] addr 53c8e len 1
+00038459675i[GDBST] addr 53c8e len 1
+00038459675i[GDBST] addr 53c8e len 1
+00038459675i[GDBST] addr 53c8e len 1
+00038459675i[GDBST] addr 53c8e len 1
+00038459675i[GDBST] addr 53c8e len 1
+00038459675i[GDBST] addr 53c8e len 8
+00038459675i[GDBST] addr 53c8e len 7
+00038459675i[GDBST] addr 103004 len 4
+00038459675i[GDBST] addr 103000 len 4
+00038459675i[GDBST] addr 105000 len 4
+00038459675i[GDBST] addr 105004 len 4
+00038459675i[GDBST] addr 105008 len 4
+00038459675i[GDBST] addr 10500c len 4
+00038459675i[GDBST] addr 105010 len 4
+00038459675i[GDBST] addr 105014 len 4
+00038459675i[GDBST] addr 105018 len 4
+00038459675i[GDBST] addr 10501c len 4
+00038459675i[GDBST] addr 105020 len 4
+00038459675i[GDBST] addr 105024 len 4
+00038459675i[GDBST] addr 105028 len 4
+00038459675i[GDBST] addr 10502c len 4
+00038459675i[GDBST] addr 105030 len 4
+00038459675i[GDBST] addr 105034 len 4
+00038459675i[GDBST] addr 105038 len 4
+00038459675i[GDBST] addr 10503c len 4
+00038459675i[GDBST] addr 105040 len 4
+00038459675i[GDBST] addr 105044 len 4
+00038459675i[GDBST] addr 105048 len 4
+00038459675i[GDBST] addr 10504c len 4
+00038459675i[GDBST] addr 103000 len 4
+00038459675i[GDBST] addr 105000 len a4
+00038459675i[GDBST] addr 1050a4 len a4
+00038459675i[GDBST] addr 105148 len a4
+00038459675i[GDBST] addr 1051ec len a4
+00038459675i[GDBST] addr 105290 len a4
+00038459675i[GDBST] addr 105334 len a4
+00038459675i[GDBST] addr 1053d8 len a4
+00038459675i[GDBST] addr 10547c len a4
+00038459675i[GDBST] addr 105520 len a4
+00038459675i[GDBST] addr 1055c4 len a4
+00038459675i[GDBST] addr 105668 len a4
+00038459675i[GDBST] addr 10570c len a4
+00038459675i[GDBST] addr 1057b0 len a4
+00038459675i[GDBST] addr 105854 len a4
+00038459675i[GDBST] addr 1058f8 len a4
+00038459675i[GDBST] addr 10599c len a4
+00038459675i[GDBST] addr 105a40 len a4
+00038459675i[GDBST] addr 105ae4 len a4
+00038459675i[GDBST] addr 105b88 len a4
+00038459675i[GDBST] addr 105c2c len a4
+00038459675i[GDBST] addr 105cd0 len a4
+00038459675i[GDBST] addr 105d74 len a4
+00038459675i[GDBST] addr 105e18 len a4
+00038459675i[GDBST] addr 105ebc len a4
+00038459675i[GDBST] addr 105f60 len a0
+00038459675i[GDBST] addr 103000 len 4
+00038459675i[GDBST] addr 103000 len 4
+00038459675i[GDBST] addr 106000 len a4
+00038459675i[GDBST] addr 1060a4 len a4
+00038459675i[GDBST] addr 106148 len a4
+00038459675i[GDBST] addr 1061ec len a4
+00038459675i[GDBST] addr 106290 len a4
+00038459675i[GDBST] addr 106334 len a4
+00038459675i[GDBST] addr 1063d8 len a4
+00038459675i[GDBST] addr 10647c len a4
+00038459675i[GDBST] addr 106520 len a4
+00038459675i[GDBST] addr 1065c4 len a4
+00038459675i[GDBST] addr 106668 len a4
+00038459675i[GDBST] addr 10670c len a4
+00038459675i[GDBST] addr 1067b0 len a4
+00038459675i[GDBST] addr 106854 len a4
+00038459675i[GDBST] addr 1068f8 len a4
+00038459675i[GDBST] addr 10699c len a4
+00038459675i[GDBST] addr 106a40 len a4
+00038459675i[GDBST] addr 106ae4 len a4
+00038459675i[GDBST] addr 106b88 len a4
+00038459675i[GDBST] addr 106c2c len a4
+00038459675i[GDBST] addr 106cd0 len a4
+00038459675i[GDBST] addr 106d74 len a4
+00038459675i[GDBST] addr 106e18 len a4
+00038459675i[GDBST] addr 106ebc len a4
+00038459675i[GDBST] addr 106f60 len a0
+00038459675i[GDBST] addr 103000 len 4
+00038459675i[GDBST] addr 101888 len 1
+00038459675i[GDBST] addr 101888 len 1
+00038459675i[GDBST] addr 101888 len 1
+00038459675i[GDBST] addr 101888 len 1
+00038459675i[GDBST] addr 101888 len e
+00038459675i[GDBST] addr 101888 len 1
+00038459675i[GDBST] addr 101889 len 1
+00038459675i[GDBST] addr 101889 len 1
+00038459675i[GDBST] addr 101889 len 1
+00038459675i[GDBST] addr 101889 len 1
+00038459675i[GDBST] addr 101889 len 1
+00038459675i[GDBST] addr 101889 len 1
+00038459675i[GDBST] addr 10188a len 5
+00038459675i[GDBST] addr 101889 len 1
+00038459675i[GDBST] addr 10188a len 5
+00038459675i[GDBST] addr 101889 len 1
+00038459675i[GDBST] addr 101889 len 1
+00038459675i[GDBST] addr 101889 len 1
+00038459675i[GDBST] addr 101889 len 1
+00038459675i[GDBST] addr 101889 len 1
+00038459675i[GDBST] addr 101889 len 1
+00038459675i[GDBST] addr 101889 len 1
+00038459675i[GDBST] addr 10188a len 1
+00038459675i[GDBST] addr 10188b len 1
+00038459675i[GDBST] addr 10188c len 1
+00038459675i[GDBST] addr 10188d len 1
+00038459675i[GDBST] addr 10188e len 1
+00038459675i[GDBST] addr 10188e len 1
+00038459675i[GDBST] addr 101888 len 1
+00038459675i[GDBST] addr 101944 len 1
+00038459675i[GDBST] setting breakpoint at 101888
+00038459675i[GDBST] setting breakpoint at 1018e9
+00038459675i[GDBST] setting breakpoint at 101944
+00038474299i[GDBST] found breakpoint at 101944
+00038474299i[GDBST] stopped with ac1
+00038474299i[GDBST] Removing breakpoint at 101888
+00038474299i[GDBST] Removing breakpoint at 1018e9
+00038474299i[GDBST] Removing breakpoint at 101944
+00038474299i[GDBST] addr 53c8e len 1
+00038474299i[GDBST] addr 53c8e len 1
+00038474299i[GDBST] addr 53c8e len 1
+00038474299i[GDBST] addr 53c8e len 1
+00038474299i[GDBST] addr 53c8e len 1
+00038474299i[GDBST] addr 53c8e len 1
+00038474299i[GDBST] addr 53c8e len 8
+00038474299i[GDBST] addr 53c8e len 7
+00038474299i[GDBST] addr 103000 len 4
+00038474299i[GDBST] addr 103000 len 4
+00038474299i[GDBST] addr 106000 len a4
+00038474299i[GDBST] addr 1060a4 len a4
+00038474299i[GDBST] addr 106148 len a4
+00038474299i[GDBST] addr 1061ec len a4
+00038474299i[GDBST] addr 106290 len a4
+00038474299i[GDBST] addr 106334 len a4
+00038474299i[GDBST] addr 1063d8 len a4
+00038474299i[GDBST] addr 10647c len a4
+00038474299i[GDBST] addr 106520 len a4
+00038474299i[GDBST] addr 1065c4 len a4
+00038474299i[GDBST] addr 106668 len a4
+00038474299i[GDBST] addr 10670c len a4
+00038474299i[GDBST] addr 1067b0 len a4
+00038474299i[GDBST] addr 106854 len a4
+00038474299i[GDBST] addr 1068f8 len a4
+00038474299i[GDBST] addr 10699c len a4
+00038474299i[GDBST] addr 106a40 len a4
+00038474299i[GDBST] addr 106ae4 len a4
+00038474299i[GDBST] addr 106b88 len a4
+00038474299i[GDBST] addr 106c2c len a4
+00038474299i[GDBST] addr 106cd0 len a4
+00038474299i[GDBST] addr 106d74 len a4
+00038474299i[GDBST] addr 106e18 len a4
+00038474299i[GDBST] addr 106ebc len a4
+00038474299i[GDBST] addr 106f60 len a0
+00038474299i[GDBST] addr 103000 len 4
+00038474299i[GDBST] addr 105000 len a4
+00038474299i[GDBST] addr 1050a4 len a4
+00038474299i[GDBST] addr 105148 len a4
+00038474299i[GDBST] addr 1051ec len a4
+00038474299i[GDBST] addr 105290 len a4
+00038474299i[GDBST] addr 105334 len a4
+00038474299i[GDBST] addr 1053d8 len a4
+00038474299i[GDBST] addr 10547c len a4
+00038474299i[GDBST] addr 105520 len a4
+00038474299i[GDBST] addr 1055c4 len a4
+00038474299i[GDBST] addr 105668 len a4
+00038474299i[GDBST] addr 10570c len a4
+00038474299i[GDBST] addr 1057b0 len a4
+00038474299i[GDBST] addr 105854 len a4
+00038474299i[GDBST] addr 1058f8 len a4
+00038474299i[GDBST] addr 10599c len a4
+00038474299i[GDBST] addr 105a40 len a4
+00038474299i[GDBST] addr 105ae4 len a4
+00038474299i[GDBST] addr 105b88 len a4
+00038474299i[GDBST] addr 105c2c len a4
+00038474299i[GDBST] addr 105cd0 len a4
+00038474299i[GDBST] addr 105d74 len a4
+00038474299i[GDBST] addr 105e18 len a4
+00038474299i[GDBST] addr 105ebc len a4
+00038474299i[GDBST] addr 105f60 len a0
+00038474299i[GDBST] addr 104c68 len 4
+00038474299i[GDBST] addr 102504 len 4
+00038474299i[GDBST] addr 102504 len 4
+00038474299i[GDBST] addr 103000 len 4
+00038474299i[GDBST] addr 107000 len 4
+00038474299i[GDBST] addr 103000 len 4
+00038474299i[GDBST] addr 103000 len 4
+00038474299i[GDBST] addr 105000 len 4
+00038474299i[GDBST] addr 108000 len a4
+00038474299i[GDBST] addr 1080a4 len a4
+00038474299i[GDBST] addr 108148 len a4
+00038474299i[GDBST] addr 1081ec len a4
+00038474299i[GDBST] addr 108290 len a4
+00038474299i[GDBST] addr 108334 len a4
+00038474299i[GDBST] addr 1083d8 len a4
+00038474299i[GDBST] addr 10847c len a4
+00038474299i[GDBST] addr 108520 len a4
+00038474299i[GDBST] addr 1085c4 len a4
+00038474299i[GDBST] addr 108668 len a4
+00038474299i[GDBST] addr 10870c len a4
+00038474299i[GDBST] addr 1087b0 len a4
+00038474299i[GDBST] addr 108854 len a4
+00038474299i[GDBST] addr 1088f8 len a4
+00038474299i[GDBST] addr 10899c len a4
+00038474299i[GDBST] addr 108a40 len a4
+00038474299i[GDBST] addr 108ae4 len a4
+00038474299i[GDBST] addr 108b88 len a4
+00038474299i[GDBST] addr 108c2c len a4
+00038474299i[GDBST] addr 108cd0 len a4
+00038474299i[GDBST] addr 108d74 len a4
+00038474299i[GDBST] addr 108e18 len a4
+00038474299i[GDBST] addr 108ebc len a4
+00038474299i[GDBST] addr 108f60 len a0
+00038474299p[GDBST] >>PANIC<< Debugger asked us to quit
+00038474299i[CPU0 ] CPU is in protected mode (active)
+00038474299i[CPU0 ] CS.d_b = 32 bit
+00038474299i[CPU0 ] SS.d_b = 32 bit
+00038474299i[CPU0 ] EFER   = 0x00000000
+00038474299i[CPU0 ] | RAX=0000000000109000  RBX=000000000002d000
+00038474299i[CPU0 ] | RCX=0000000000004000  RDX=0000000000109000
+00038474299i[CPU0 ] | RSP=0000000000067e78  RBP=0000000000067ea0
+00038474299i[CPU0 ] | RSI=0000000000053c8e  RDI=0000000000053c8f
+00038474299i[CPU0 ] |  R8=0000000000000000   R9=0000000000000000
+00038474299i[CPU0 ] | R10=0000000000000000  R11=0000000000000000
+00038474299i[CPU0 ] | R12=0000000000000000  R13=0000000000000000
+00038474299i[CPU0 ] | R14=0000000000000000  R15=0000000000000000
+00038474299i[CPU0 ] | IOPL=0 id vip vif ac vm rf nt of df if tf sf ZF af PF cf
+00038474299i[CPU0 ] | SEG selector     base    limit G D
+00038474299i[CPU0 ] | SEG sltr(index|ti|rpl)     base    limit G D
+00038474299i[CPU0 ] |  CS:0008( 0001| 0|  0) 00000000 ffffffff 1 1
+00038474299i[CPU0 ] |  DS:0010( 0002| 0|  0) 00000000 ffffffff 1 1
+00038474299i[CPU0 ] |  SS:0010( 0002| 0|  0) 00000000 ffffffff 1 1
+00038474299i[CPU0 ] |  ES:0010( 0002| 0|  0) 00000000 ffffffff 1 1
+00038474299i[CPU0 ] |  FS:0010( 0002| 0|  0) 00000000 ffffffff 1 1
+00038474299i[CPU0 ] |  GS:0010( 0002| 0|  0) 00000000 ffffffff 1 1
+00038474299i[CPU0 ] |  MSR_FS_BASE:0000000000000000
+00038474299i[CPU0 ] |  MSR_GS_BASE:0000000000000000
+00038474299i[CPU0 ] | RIP=0000000000101944 (0000000000101944)
+00038474299i[CPU0 ] | CR0=0x60000011 CR2=0x0000000000000000
+00038474299i[CPU0 ] | CR3=0x00000000 CR4=0x00000000
+00038474299i[CPU0 ] 0x0000000000101944>> mov dword ptr ds:0x104898, 0x00101a69 : C70598481000691A1000
+00038474299i[CMOS ] Last time is 1408972526 (Mon Aug 25 21:15:26 2014)
+00038474299i[     ] restoring default signal behavior
+00038474299i[CTRL ] quit_sim called with exit code 1

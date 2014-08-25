@@ -1,0 +1,330 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACCS_P	gdt.h	8;"	d
+ASFLAGS	makefile	/^ASFLAGS=-felf$/;"	m
+ASSERT	common.h	10;"	d
+CFLAGS	makefile	/^CFLAGS=-nostdlib -nostdinc -fno-builtin -fno-stack-protector -Wall -g$/;"	m
+COBJ	makefile	/^COBJ=${patsubst %.c,%.o, $(wildcard *.c)}$/;"	m
+COMMON_H	common.h	2;"	d
+DPL_0	gdt.h	9;"	d
+DPL_1	gdt.h	10;"	d
+DPL_2	gdt.h	11;"	d
+DPL_3	gdt.h	12;"	d
+GDT_H	gdt.h	2;"	d
+GRAN_B	gdt.h	7;"	d
+GRAN_D	gdt.h	6;"	d
+GRAN_G	gdt.h	5;"	d
+IDT_H	idt.h	2;"	d
+INDEX_FROM_BIT	paging.c	4;"	d	file:
+IRQ	isr.s	/^IRQ   0,    32$/;"	l
+IRQ	isr.s	/^IRQ   1,    33$/;"	l
+IRQ	isr.s	/^IRQ   2,    34$/;"	l
+IRQ	isr.s	/^IRQ   3,    35$/;"	l
+IRQ	isr.s	/^IRQ   4,    36$/;"	l
+IRQ	isr.s	/^IRQ   5,    37$/;"	l
+IRQ	isr.s	/^IRQ   6,    38$/;"	l
+IRQ	isr.s	/^IRQ   7,    39$/;"	l
+IRQ	isr.s	/^IRQ   8,    40$/;"	l
+IRQ	isr.s	/^IRQ   9,    41$/;"	l
+IRQ	isr.s	/^IRQ  10,    42$/;"	l
+IRQ	isr.s	/^IRQ  11,    43$/;"	l
+IRQ	isr.s	/^IRQ  12,    44$/;"	l
+IRQ	isr.s	/^IRQ  13,    45$/;"	l
+IRQ	isr.s	/^IRQ  14,    46$/;"	l
+IRQ	isr.s	/^IRQ  15,    47$/;"	l
+ISR_ERR	isr.s	/^ISR_ERR 10$/;"	l
+ISR_ERR	isr.s	/^ISR_ERR 11$/;"	l
+ISR_ERR	isr.s	/^ISR_ERR 12$/;"	l
+ISR_ERR	isr.s	/^ISR_ERR 13$/;"	l
+ISR_ERR	isr.s	/^ISR_ERR 14$/;"	l
+ISR_ERR	isr.s	/^ISR_ERR 8$/;"	l
+ISR_HANDLER	isr_handler.h	2;"	d
+ISR_NOERR	isr.s	/^ISR_NOERR 0$/;"	l
+ISR_NOERR	isr.s	/^ISR_NOERR 1$/;"	l
+ISR_NOERR	isr.s	/^ISR_NOERR 15$/;"	l
+ISR_NOERR	isr.s	/^ISR_NOERR 16$/;"	l
+ISR_NOERR	isr.s	/^ISR_NOERR 17$/;"	l
+ISR_NOERR	isr.s	/^ISR_NOERR 18$/;"	l
+ISR_NOERR	isr.s	/^ISR_NOERR 19$/;"	l
+ISR_NOERR	isr.s	/^ISR_NOERR 2$/;"	l
+ISR_NOERR	isr.s	/^ISR_NOERR 20$/;"	l
+ISR_NOERR	isr.s	/^ISR_NOERR 21$/;"	l
+ISR_NOERR	isr.s	/^ISR_NOERR 22$/;"	l
+ISR_NOERR	isr.s	/^ISR_NOERR 23$/;"	l
+ISR_NOERR	isr.s	/^ISR_NOERR 24$/;"	l
+ISR_NOERR	isr.s	/^ISR_NOERR 25$/;"	l
+ISR_NOERR	isr.s	/^ISR_NOERR 26$/;"	l
+ISR_NOERR	isr.s	/^ISR_NOERR 27$/;"	l
+ISR_NOERR	isr.s	/^ISR_NOERR 28$/;"	l
+ISR_NOERR	isr.s	/^ISR_NOERR 29$/;"	l
+ISR_NOERR	isr.s	/^ISR_NOERR 3$/;"	l
+ISR_NOERR	isr.s	/^ISR_NOERR 30$/;"	l
+ISR_NOERR	isr.s	/^ISR_NOERR 31$/;"	l
+ISR_NOERR	isr.s	/^ISR_NOERR 4$/;"	l
+ISR_NOERR	isr.s	/^ISR_NOERR 5$/;"	l
+ISR_NOERR	isr.s	/^ISR_NOERR 6$/;"	l
+ISR_NOERR	isr.s	/^ISR_NOERR 7$/;"	l
+ISR_NOERR	isr.s	/^ISR_NOERR 9$/;"	l
+KHEAP_H	kheap.h	2;"	d
+LDFLAGS	makefile	/^LDFLAGS=-T link.ld$/;"	m
+LIMIT_MAX	gdt.h	4;"	d
+MBOOT_CHEKCSUM	boot.s	/^MBOOT_CHEKCSUM		equ		-(MBOOT_HEADER_FLAGS + MBOOT_HEADER_MAGIC)$/;"	d
+MBOOT_HEADER_FLAGS	boot.s	/^MBOOT_HEADER_FLAGS	equ		MBOOT_PAGE_ALIGN | MBOOT_MEM_INFO$/;"	d
+MBOOT_HEADER_MAGIC	boot.s	/^MBOOT_HEADER_MAGIC	equ		0x1badb002$/;"	d
+MBOOT_MEM_INFO	boot.s	/^MBOOT_MEM_INFO		equ 	1<<1$/;"	d
+MBOOT_PAGE_ALIGN	boot.s	/^MBOOT_PAGE_ALIGN	equ 	1<<0$/;"	d
+MONITOR_H	monitor.h	2;"	d
+NULL	common.h	4;"	d
+OFFSET_FROM_BIT	paging.c	5;"	d	file:
+PAGING_H	paging.h	2;"	d
+PANIC	common.h	9;"	d
+PITFREQUENCE	timer.h	5;"	d
+TIME_H	timer.h	2;"	d
+__attribute	gdt.h	/^}__attribute((packed));$/;"	p	signature:(packed)
+access	gdt.h	/^	u8int access;$/;"	m	struct:gdt_entry_struct	access:public
+accessed	paging.h	/^	u32int accessed:1;	$/;"	m	struct:page	access:public
+alloc_frame	paging.c	/^void alloc_frame(page_t* page, u8int is_kernel, u8int is_writable)$/;"	f	signature:(page_t* page, u8int is_kernel, u8int is_writable)
+always0	idt.h	/^	u8int always0;$/;"	m	struct:idt_entry_struct	access:public
+base	gdt.h	/^	u32int base;$/;"	m	struct:gdt_ptr_struct	access:public
+base	idt.h	/^	u32int base;$/;"	m	struct:idt_ptr_struct	access:public
+base_high	gdt.h	/^	u8int base_high;$/;"	m	struct:gdt_entry_struct	access:public
+base_high	idt.h	/^	u16int base_high;$/;"	m	struct:idt_entry_struct	access:public
+base_low	gdt.h	/^	u16int base_low;$/;"	m	struct:gdt_entry_struct	access:public
+base_low	idt.h	/^	u16int base_low;$/;"	m	struct:idt_entry_struct	access:public
+base_mid	gdt.h	/^	u8int base_mid;$/;"	m	struct:gdt_entry_struct	access:public
+clear_frame	paging.c	/^void clear_frame(u32int frame_addr)$/;"	f	signature:(u32int frame_addr)
+cs	isr_handler.h	/^	u32int eip, cs, eflags, useresp, ss;$/;"	m	struct:re	access:public
+current_directory	paging.c	/^page_directory_t* current_directory;$/;"	v
+cursor_x	monitor.c	/^u8int cursor_x;$/;"	v
+cursor_y	monitor.c	/^u8int cursor_y;$/;"	v
+dirty	paging.h	/^	u32int dirty:1;$/;"	m	struct:page	access:public
+ds	isr_handler.h	/^	u32int ds;$/;"	m	struct:re	access:public
+eax	isr_handler.h	/^	u32int edi, esi, ebp, esp, ebx, edx, ecx, eax;$/;"	m	struct:re	access:public
+ebp	isr_handler.h	/^	u32int edi, esi, ebp, esp, ebx, edx, ecx, eax;$/;"	m	struct:re	access:public
+ebx	isr_handler.h	/^	u32int edi, esi, ebp, esp, ebx, edx, ecx, eax;$/;"	m	struct:re	access:public
+ecx	isr_handler.h	/^	u32int edi, esi, ebp, esp, ebx, edx, ecx, eax;$/;"	m	struct:re	access:public
+edi	isr_handler.h	/^	u32int edi, esi, ebp, esp, ebx, edx, ecx, eax;$/;"	m	struct:re	access:public
+edx	isr_handler.h	/^	u32int edi, esi, ebp, esp, ebx, edx, ecx, eax;$/;"	m	struct:re	access:public
+eflags	isr_handler.h	/^	u32int eip, cs, eflags, useresp, ss;$/;"	m	struct:re	access:public
+eip	isr_handler.h	/^	u32int eip, cs, eflags, useresp, ss;$/;"	m	struct:re	access:public
+err_code	isr_handler.h	/^	u32int int_no, err_code;$/;"	m	struct:re	access:public
+esi	isr_handler.h	/^	u32int edi, esi, ebp, esp, ebx, edx, ecx, eax;$/;"	m	struct:re	access:public
+esp	isr_handler.h	/^	u32int edi, esi, ebp, esp, ebx, edx, ecx, eax;$/;"	m	struct:re	access:public
+first_frame	paging.c	/^u32int first_frame()$/;"	f
+flags	idt.h	/^	u8int flags;$/;"	m	struct:idt_entry_struct	access:public
+frame	paging.h	/^	u32int frame:20;$/;"	m	struct:page	access:public
+frames	paging.c	/^u32int* frames;$/;"	v
+free_frames	paging.c	/^void free_frames(page_t* page)$/;"	f	signature:(page_t* page)
+gdt_entries	gdt.c	/^gdt_entry_t gdt_entries[5];$/;"	v
+gdt_entry_struct	gdt.h	/^struct gdt_entry_struct{$/;"	s
+gdt_entry_struct::access	gdt.h	/^	u8int access;$/;"	m	struct:gdt_entry_struct	access:public
+gdt_entry_struct::base_high	gdt.h	/^	u8int base_high;$/;"	m	struct:gdt_entry_struct	access:public
+gdt_entry_struct::base_low	gdt.h	/^	u16int base_low;$/;"	m	struct:gdt_entry_struct	access:public
+gdt_entry_struct::base_mid	gdt.h	/^	u8int base_mid;$/;"	m	struct:gdt_entry_struct	access:public
+gdt_entry_struct::granularity	gdt.h	/^	u8int granularity;$/;"	m	struct:gdt_entry_struct	access:public
+gdt_entry_struct::limit_low	gdt.h	/^	u16int limit_low;$/;"	m	struct:gdt_entry_struct	access:public
+gdt_entry_t	gdt.h	/^typedef struct gdt_entry_struct gdt_entry_t;$/;"	t	typeref:struct:gdt_entry_struct
+gdt_flush	gdt.c	/^extern void gdt_flush(u32int);$/;"	p	file:
+gdt_flush	gdt_flush.s	/^gdt_flush:$/;"	l
+gdt_ptr	gdt.c	/^gdt_ptr_t gdt_ptr;$/;"	v
+gdt_ptr_struct	gdt.h	/^struct gdt_ptr_struct{$/;"	s
+gdt_ptr_struct::base	gdt.h	/^	u32int base;$/;"	m	struct:gdt_ptr_struct	access:public
+gdt_ptr_struct::limit	gdt.h	/^	u16int limit;$/;"	m	struct:gdt_ptr_struct	access:public
+gdt_ptr_t	gdt.h	/^typedef struct gdt_ptr_struct gdt_ptr_t;$/;"	t	typeref:struct:gdt_ptr_struct
+gdt_set_gate	gdt.c	/^void gdt_set_gate(s32int index, u32int base, u32int limit, u8int access, u8int gran)$/;"	f	signature:(s32int index, u32int base, u32int limit, u8int access, u8int gran)
+gdt_set_gate	gdt.c	/^void gdt_set_gate(s32int index, u32int base, u32int limit, u8int access, u8int gran);$/;"	p	file:	signature:(s32int index, u32int base, u32int limit, u8int access, u8int gran)
+get_page	paging.c	/^page_t* get_page(u32int address, u8int create, page_directory_t* dir)$/;"	f	signature:(u32int address, u8int create, page_directory_t* dir)
+get_page	paging.h	/^page_t* get_page(u32int address, u8int create, page_directory_t* dir);$/;"	p	signature:(u32int address, u8int create, page_directory_t* dir)
+granularity	gdt.h	/^	u8int granularity;$/;"	m	struct:gdt_entry_struct	access:public
+idt_entries	idt.c	/^idt_entry_t idt_entries[256];$/;"	v
+idt_entry_struct	idt.h	/^struct idt_entry_struct{$/;"	s
+idt_entry_struct::always0	idt.h	/^	u8int always0;$/;"	m	struct:idt_entry_struct	access:public
+idt_entry_struct::base_high	idt.h	/^	u16int base_high;$/;"	m	struct:idt_entry_struct	access:public
+idt_entry_struct::base_low	idt.h	/^	u16int base_low;$/;"	m	struct:idt_entry_struct	access:public
+idt_entry_struct::flags	idt.h	/^	u8int flags;$/;"	m	struct:idt_entry_struct	access:public
+idt_entry_struct::sel	idt.h	/^	u16int sel;$/;"	m	struct:idt_entry_struct	access:public
+idt_entry_t	idt.h	/^typedef struct idt_entry_struct idt_entry_t;$/;"	t	typeref:struct:idt_entry_struct
+idt_flush	idt.c	/^extern void idt_flush(u32int);$/;"	p	file:
+idt_flush	idt_flush.s	/^idt_flush:$/;"	l
+idt_ptr	idt.c	/^idt_ptr_t idt_ptr;$/;"	v
+idt_ptr_struct	idt.h	/^struct idt_ptr_struct{$/;"	s
+idt_ptr_struct::base	idt.h	/^	u32int base;$/;"	m	struct:idt_ptr_struct	access:public
+idt_ptr_struct::limit	idt.h	/^	u16int limit;$/;"	m	struct:idt_ptr_struct	access:public
+idt_ptr_t	idt.h	/^typedef struct idt_ptr_struct idt_ptr_t;$/;"	t	typeref:struct:idt_ptr_struct
+idt_set_gate	idt.c	/^void idt_set_gate(u8int index, u32int base, u16int sel, u8int flags)$/;"	f	signature:(u8int index, u32int base, u16int sel, u8int flags)
+inb	common.c	/^u8int inb(u16int port)$/;"	f	signature:(u16int port)
+inb	common.h	/^u8int inb(u16int);$/;"	p	signature:(u16int)
+init_gdt	gdt.c	/^void init_gdt()$/;"	f
+init_gdt	gdt.h	/^void init_gdt();$/;"	p	signature:()
+init_idt	idt.c	/^void init_idt()$/;"	f
+init_idt	idt.h	/^void init_idt();$/;"	p	signature:()
+init_paging	paging.c	/^void init_paging()$/;"	f
+init_paging	paging.h	/^void init_paging();$/;"	p	signature:()
+init_timer	timer.c	/^void init_timer(u32int feq)$/;"	f	signature:(u32int feq)
+init_timer	timer.h	/^void init_timer(u32int);$/;"	p	signature:(u32int)
+int_no	isr_handler.h	/^	u32int int_no, err_code;$/;"	m	struct:re	access:public
+inw	common.c	/^u16int inw(u16int port)$/;"	f	signature:(u16int port)
+inw	common.h	/^u16int inw(u16int);$/;"	p	signature:(u16int)
+irq0	idt.h	/^extern void irq0();$/;"	p	signature:()
+irq1	idt.h	/^extern void irq1();$/;"	p	signature:()
+irq10	idt.h	/^extern void irq10();$/;"	p	signature:()
+irq11	idt.h	/^extern void irq11();$/;"	p	signature:()
+irq12	idt.h	/^extern void irq12();$/;"	p	signature:()
+irq13	idt.h	/^extern void irq13();$/;"	p	signature:()
+irq14	idt.h	/^extern void irq14();$/;"	p	signature:()
+irq15	idt.h	/^extern void irq15();$/;"	p	signature:()
+irq2	idt.h	/^extern void irq2();$/;"	p	signature:()
+irq3	idt.h	/^extern void irq3();$/;"	p	signature:()
+irq4	idt.h	/^extern void irq4();$/;"	p	signature:()
+irq5	idt.h	/^extern void irq5();$/;"	p	signature:()
+irq6	idt.h	/^extern void irq6();$/;"	p	signature:()
+irq7	idt.h	/^extern void irq7();$/;"	p	signature:()
+irq8	idt.h	/^extern void irq8();$/;"	p	signature:()
+irq9	idt.h	/^extern void irq9();$/;"	p	signature:()
+irq_common_stub	isr.s	/^irq_common_stub:$/;"	l
+irq_handler	isr_handler.c	/^void irq_handler(registers_t regs)$/;"	f	signature:(registers_t regs)
+irq_handler	isr_handler.h	/^void irq_handler(registers_t regs);$/;"	p	signature:(registers_t regs)
+isr0	idt.h	/^extern void isr0();$/;"	p	signature:()
+isr1	idt.h	/^extern void isr1();$/;"	p	signature:()
+isr10	idt.h	/^extern void isr10();$/;"	p	signature:()
+isr11	idt.h	/^extern void isr11();$/;"	p	signature:()
+isr12	idt.h	/^extern void isr12();$/;"	p	signature:()
+isr13	idt.h	/^extern void isr13();$/;"	p	signature:()
+isr14	idt.h	/^extern void isr14();$/;"	p	signature:()
+isr15	idt.h	/^extern void isr15();$/;"	p	signature:()
+isr16	idt.h	/^extern void isr16();$/;"	p	signature:()
+isr17	idt.h	/^extern void isr17();$/;"	p	signature:()
+isr18	idt.h	/^extern void isr18();$/;"	p	signature:()
+isr19	idt.h	/^extern void isr19();$/;"	p	signature:()
+isr2	idt.h	/^extern void isr2();$/;"	p	signature:()
+isr20	idt.h	/^extern void isr20();$/;"	p	signature:()
+isr21	idt.h	/^extern void isr21();$/;"	p	signature:()
+isr22	idt.h	/^extern void isr22();$/;"	p	signature:()
+isr23	idt.h	/^extern void isr23();$/;"	p	signature:()
+isr24	idt.h	/^extern void isr24();$/;"	p	signature:()
+isr25	idt.h	/^extern void isr25();$/;"	p	signature:()
+isr26	idt.h	/^extern void isr26();$/;"	p	signature:()
+isr27	idt.h	/^extern void isr27();$/;"	p	signature:()
+isr28	idt.h	/^extern void isr28();$/;"	p	signature:()
+isr29	idt.h	/^extern void isr29();$/;"	p	signature:()
+isr3	idt.h	/^extern void isr3();$/;"	p	signature:()
+isr30	idt.h	/^extern void isr30();$/;"	p	signature:()
+isr31	idt.h	/^extern void isr31();$/;"	p	signature:()
+isr4	idt.h	/^extern void isr4();$/;"	p	signature:()
+isr5	idt.h	/^extern void isr5();$/;"	p	signature:()
+isr6	idt.h	/^extern void isr6();$/;"	p	signature:()
+isr7	idt.h	/^extern void isr7();$/;"	p	signature:()
+isr8	idt.h	/^extern void isr8();$/;"	p	signature:()
+isr9	idt.h	/^extern void isr9();$/;"	p	signature:()
+isr_common_stub	isr.s	/^isr_common_stub:$/;"	l
+isr_handler	isr_handler.c	/^void isr_handler(registers_t regs)$/;"	f	signature:(registers_t regs)
+isr_handler	isr_handler.h	/^void isr_handler(registers_t regs);$/;"	p	signature:(registers_t regs)
+kernel_directory	paging.c	/^page_directory_t* kernel_directory;$/;"	v
+kesp	main.c	/^u32int kesp;$/;"	v
+kmain	main.c	/^int kmain(struct multiboot* mboot_ptr)\/\/name is mentioned in boot.s$/;"	f	signature:(struct multiboot* mboot_ptr)
+kmalloc	kheap.c	/^u32int kmalloc(u32int sz)$/;"	f	signature:(u32int sz)
+kmalloc	kheap.h	/^u32int kmalloc(u32int sz);$/;"	p	signature:(u32int sz)
+kmalloc	kheep.c	/^u32int kmalloc(u32int sz, u8int align)$/;"	f	signature:(u32int sz, u8int align)
+kmalloc	kmalloc.c	/^u32int kmalloc(u32int sz, u8int align)$/;"	f	signature:(u32int sz, u8int align)
+kmalloc_a	kheap.c	/^u32int kmalloc_a(u32int sz)$/;"	f	signature:(u32int sz)
+kmalloc_a	kheap.h	/^u32int kmalloc_a(u32int sz);$/;"	p	signature:(u32int sz)
+kmalloc_ap	kheap.c	/^u32int kmalloc_ap(u32int sz, u32int* phys)$/;"	f	signature:(u32int sz, u32int* phys)
+kmalloc_ap	kheap.h	/^u32int kmalloc_ap(u32int sz, u32int* phys);$/;"	p	signature:(u32int sz, u32int* phys)
+kmalloc_int	kheap.c	/^u32int kmalloc_int(u32int sz, u8int align, u32int* phys)$/;"	f	signature:(u32int sz, u8int align, u32int* phys)
+kmalloc_int	kheap.h	/^u32int kmalloc_int(u32int sz, u8int align, u32int* phys);$/;"	p	signature:(u32int sz, u8int align, u32int* phys)
+kmalloc_p	kheap.c	/^u32int kmalloc_p(u32int sz, u32int* phys)$/;"	f	signature:(u32int sz, u32int* phys)
+kmalloc_p	kheap.h	/^u32int kmalloc_p(u32int sz, u32int* phys);$/;"	p	signature:(u32int sz, u32int* phys)
+kss	main.c	/^u16int kss;$/;"	v
+limit	gdt.h	/^	u16int limit;$/;"	m	struct:gdt_ptr_struct	access:public
+limit	idt.h	/^	u16int limit;$/;"	m	struct:idt_ptr_struct	access:public
+limit_low	gdt.h	/^	u16int limit_low;$/;"	m	struct:gdt_entry_struct	access:public
+mboot	boot.s	/^mboot:$/;"	l
+monitor_clear	monitor.c	/^void monitor_clear()$/;"	f
+monitor_clear	monitor.h	/^void monitor_clear();$/;"	p	signature:()
+monitor_put	monitor.c	/^void monitor_put(char c)$/;"	f	signature:(char c)
+monitor_put	monitor.h	/^void monitor_put(char c);$/;"	p	signature:(char c)
+monitor_write	monitor.c	/^void monitor_write(const char* c)$/;"	f	signature:(const char* c)
+monitor_write	monitor.h	/^void monitor_write(const char* c);$/;"	p	signature:(const char* c)
+monitor_write_dec	monitor.c	/^void monitor_write_dec(u32int n)$/;"	f	signature:(u32int n)
+monitor_write_dec	monitor.h	/^void monitor_write_dec(u32int n);$/;"	p	signature:(u32int n)
+monitor_write_hex	monitor.c	/^void monitor_write_hex(u32int n)$/;"	f	signature:(u32int n)
+monitor_write_hex	monitor.h	/^void monitor_write_hex(u32int n);$/;"	p	signature:(u32int n)
+move_cursor	monitor.c	/^static void move_cursor()$/;"	f	file:
+multiboot	main.c	/^struct multiboot{};$/;"	s	file:
+nframes	paging.c	/^u32int nframes;$/;"	v
+outb	common.c	/^void outb(u16int port, u8int value)$/;"	f	signature:(u16int port, u8int value)
+outb	common.h	/^void outb(u16int, u8int);$/;"	p	signature:(u16int, u8int)
+page	paging.h	/^typedef struct page{$/;"	s
+page::accessed	paging.h	/^	u32int accessed:1;	$/;"	m	struct:page	access:public
+page::dirty	paging.h	/^	u32int dirty:1;$/;"	m	struct:page	access:public
+page::frame	paging.h	/^	u32int frame:20;$/;"	m	struct:page	access:public
+page::present	paging.h	/^	u32int present:1;	\/\/1: present$/;"	m	struct:page	access:public
+page::rw	paging.h	/^	u32int rw:1;		\/\/1: rw$/;"	m	struct:page	access:public
+page::unused	paging.h	/^	u32int unused:7;$/;"	m	struct:page	access:public
+page::user	paging.h	/^	u32int user:1;		\/\/1: user$/;"	m	struct:page	access:public
+page_directory	paging.h	/^typedef struct page_directory{$/;"	s
+page_directory::physicalAddr	paging.h	/^	u32int physicalAddr;$/;"	m	struct:page_directory	access:public
+page_directory::tables	paging.h	/^	page_table_t* tables[1024];$/;"	m	struct:page_directory	access:public
+page_directory::tablesPhysical	paging.h	/^	u32int tablesPhysical[1024];$/;"	m	struct:page_directory	access:public
+page_directory_t	paging.h	/^}page_directory_t;$/;"	t	typeref:struct:page_directory
+page_fault	paging.c	/^void page_fault(registers_t regs)$/;"	f	signature:(registers_t regs)
+page_fault	paging.h	/^void page_fault(registers_t regs);$/;"	p	signature:(registers_t regs)
+page_t	paging.h	/^} page_t;$/;"	t	typeref:struct:page
+page_table	paging.h	/^typedef struct page_table{$/;"	s
+page_table::pages	paging.h	/^	page_t pages[1024];$/;"	m	struct:page_table	access:public
+page_table_t	paging.h	/^}page_table_t;$/;"	t	typeref:struct:page_table
+pages	paging.h	/^	page_t pages[1024];$/;"	m	struct:page_table	access:public
+panic	common.h	/^extern void panic(const char*, const char*, u32int);$/;"	p	signature:(const char*, const char*, u32int)
+panic	monitor.c	/^void panic(const char* file, u32int line, const char* des)$/;"	f	signature:(const char* file, u32int line, const char* des)
+panic	monitor.c	/^void panic(const char* msg, const char* file, u32int line)$/;"	f	signature:(const char* msg, const char* file, u32int line)
+panic_assert	common.h	/^extern void panic_assert(const char*, u32int, const char*);$/;"	p	signature:(const char*, u32int, const char*)
+physicalAddr	paging.h	/^	u32int physicalAddr;$/;"	m	struct:page_directory	access:public
+placement_address	kheap.c	/^u32int placement_address = (u32int)&end;$/;"	v
+present	paging.h	/^	u32int present:1;	\/\/1: present$/;"	m	struct:page	access:public
+prtf	monitor.c	/^void prtf(const char* format, ...)$/;"	f	signature:(const char* format, ...)
+prtf	monitor.h	/^void prtf(const char* format, ...);$/;"	p	signature:(const char* format, ...)
+re	isr_handler.h	/^typedef struct re{$/;"	s
+re::cs	isr_handler.h	/^	u32int eip, cs, eflags, useresp, ss;$/;"	m	struct:re	access:public
+re::ds	isr_handler.h	/^	u32int ds;$/;"	m	struct:re	access:public
+re::eax	isr_handler.h	/^	u32int edi, esi, ebp, esp, ebx, edx, ecx, eax;$/;"	m	struct:re	access:public
+re::ebp	isr_handler.h	/^	u32int edi, esi, ebp, esp, ebx, edx, ecx, eax;$/;"	m	struct:re	access:public
+re::ebx	isr_handler.h	/^	u32int edi, esi, ebp, esp, ebx, edx, ecx, eax;$/;"	m	struct:re	access:public
+re::ecx	isr_handler.h	/^	u32int edi, esi, ebp, esp, ebx, edx, ecx, eax;$/;"	m	struct:re	access:public
+re::edi	isr_handler.h	/^	u32int edi, esi, ebp, esp, ebx, edx, ecx, eax;$/;"	m	struct:re	access:public
+re::edx	isr_handler.h	/^	u32int edi, esi, ebp, esp, ebx, edx, ecx, eax;$/;"	m	struct:re	access:public
+re::eflags	isr_handler.h	/^	u32int eip, cs, eflags, useresp, ss;$/;"	m	struct:re	access:public
+re::eip	isr_handler.h	/^	u32int eip, cs, eflags, useresp, ss;$/;"	m	struct:re	access:public
+re::err_code	isr_handler.h	/^	u32int int_no, err_code;$/;"	m	struct:re	access:public
+re::esi	isr_handler.h	/^	u32int edi, esi, ebp, esp, ebx, edx, ecx, eax;$/;"	m	struct:re	access:public
+re::esp	isr_handler.h	/^	u32int edi, esi, ebp, esp, ebx, edx, ecx, eax;$/;"	m	struct:re	access:public
+re::int_no	isr_handler.h	/^	u32int int_no, err_code;$/;"	m	struct:re	access:public
+re::ss	isr_handler.h	/^	u32int eip, cs, eflags, useresp, ss;$/;"	m	struct:re	access:public
+re::useresp	isr_handler.h	/^	u32int eip, cs, eflags, useresp, ss;$/;"	m	struct:re	access:public
+registers_t	isr_handler.h	/^}registers_t;$/;"	t	typeref:struct:re
+rw	paging.h	/^	u32int rw:1;		\/\/1: rw$/;"	m	struct:page	access:public
+s16int	common.h	/^typedef short s16int;$/;"	t
+s32int	common.h	/^typedef int s32int;$/;"	t
+s8int	common.h	/^typedef char s8int;$/;"	t
+scroll	monitor.c	/^static void scroll()$/;"	f	file:
+sel	idt.h	/^	u16int sel;$/;"	m	struct:idt_entry_struct	access:public
+set_frame	paging.c	/^void set_frame(u32int frame_addr)$/;"	f	signature:(u32int frame_addr)
+spec_handler	isr_handler.c	/^void(*spec_handler[256])(registers_t);$/;"	v
+ss	isr_handler.h	/^	u32int eip, cs, eflags, useresp, ss;$/;"	m	struct:re	access:public
+start	boot.s	/^start:$/;"	l
+switch_page_directory	paging.c	/^void switch_page_directory(page_directory_t* dir)$/;"	f	signature:(page_directory_t* dir)
+switch_page_directory	paging.h	/^void switch_page_directory(page_directory_t* new);$/;"	p	signature:(page_directory_t* new)
+tables	paging.h	/^	page_table_t* tables[1024];$/;"	m	struct:page_directory	access:public
+tablesPhysical	paging.h	/^	u32int tablesPhysical[1024];$/;"	m	struct:page_directory	access:public
+test_frame	paging.c	/^u32int test_frame(u32int frame_addr)$/;"	f	signature:(u32int frame_addr)
+timer_irq_routin	timer.c	/^void timer_irq_routin(registers_t regs){$/;"	f	signature:(registers_t regs)
+u16int	common.h	/^typedef unsigned short u16int;$/;"	t
+u32int	common.h	/^typedef unsigned int u32int;$/;"	t
+u8int	common.h	/^typedef unsigned char u8int;$/;"	t
+unused	paging.h	/^	u32int unused:7;$/;"	m	struct:page	access:public
+user	paging.h	/^	u32int user:1;		\/\/1: user$/;"	m	struct:page	access:public
+useresp	isr_handler.h	/^	u32int eip, cs, eflags, useresp, ss;$/;"	m	struct:re	access:public
+video_memory	monitor.c	/^u16int* video_memory = (void*)0xb8000;$/;"	v
