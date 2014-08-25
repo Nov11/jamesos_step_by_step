@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ASFLAGS	makefile	/^ASFLAGS=-felf$/;"	m
+CFLAGS	makefile	/^CFLAGS=-nostdlib -nostdinc -fno-builtin -fno-stack-protector$/;"	m
+COMMON_H	common.h	2;"	d
+LDFLAGS	makefile	/^LDFLAGS=-T link.ld$/;"	m
+MBOOT_CHEKCSUM	boot.s	/^MBOOT_CHEKCSUM		equ		-(MBOOT_HEADER_FLAGS + MBOOT_HEADER_MAGIC)$/;"	d
+MBOOT_HEADER_FLAGS	boot.s	/^MBOOT_HEADER_FLAGS	equ		MBOOT_PAGE_ALIGN | MBOOT_MEM_INFO$/;"	d
+MBOOT_HEADER_MAGIC	boot.s	/^MBOOT_HEADER_MAGIC	equ		0x1badb002$/;"	d
+MBOOT_MEM_INFO	boot.s	/^MBOOT_MEM_INFO		equ 	1<<1$/;"	d
+MBOOT_PAGE_ALIGN	boot.s	/^MBOOT_PAGE_ALIGN	equ 	1<<0$/;"	d
+MONITOR_H	monitor.h	2;"	d
+SOURCES	makefile	/^SOURCES=boot.o main.o$/;"	m
+cursor_x	monitor.c	/^u8int cursor_x;$/;"	v
+cursor_y	monitor.c	/^u8int cursor_y;$/;"	v
+inb	common.c	/^u8int inb(u16int port)$/;"	f	signature:(u16int port)
+inb	common.h	/^u8int inb(u16int);$/;"	p	signature:(u16int)
+inw	common.c	/^u16int inw(u16int port)$/;"	f	signature:(u16int port)
+inw	common.h	/^u16int inw(u16int);$/;"	p	signature:(u16int)
+kmain	main.c	/^int kmain(struct multiboot* mboot_ptr)\/\/name is mentioned in boot.s$/;"	f	signature:(struct multiboot* mboot_ptr)
+mboot	boot.s	/^mboot:$/;"	l
+monitor_clear	monitor.h	/^void monitor_clear();$/;"	p	signature:()
+monitor_put	monitor.h	/^void monitor_put(char c);$/;"	p	signature:(char c)
+monitor_write	monitor.h	/^void monitor_write(char* c);$/;"	p	signature:(char* c)
+out	common.h	/^void out(u16int, u8int);$/;"	p	signature:(u16int, u8int)
+outb	common.c	/^void outb(u16int port, u8int value)$/;"	f	signature:(u16int port, u8int value)
+s16int	common.h	/^typedef short s16int;$/;"	t
+s32int	common.h	/^typedef int s32int;$/;"	t
+s8int	common.h	/^typedef char s8int;$/;"	t
+start	boot.s	/^start:$/;"	l
+u16int	common.h	/^typedef unsigned short u16int;$/;"	t
+u32int	common.h	/^typedef unsigned int u32int;$/;"	t
+u8int	common.h	/^typedef unsigned char u8int;$/;"	t
